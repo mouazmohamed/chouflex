@@ -1,0 +1,208 @@
+body{
+	background-color: #000000;
+	font-family: Arial;
+	color: white;
+}
+
+header{
+	background-color: #333333;
+	border-radius: 1em 1em;
+	padding: 1em 1em;
+	color: white;
+	font-size: 125%;
+}
+
+/*Affichier les menus de navigation sous forme de blocs*/
+nav.menu ul li.btn{
+	list-style-type: none;
+	display: inline-block;
+}
+
+/*Personnalisation des menus de navigations*/
+nav.menu ul li.btn a{
+	color: white;
+	background-color: #bb0b0b;
+	text-decoration: none;
+	padding: 20px;
+	border-radius: 2em 2em;
+	font-size: 125%;
+}
+
+/*Transition des menus de navigation lors du survol de la souris*/
+nav.menu ul li.btn:hover a{
+	color: #bb0b0b;
+	background-color: #ffffff;
+	transition: 0.4s all;
+}
+
+/*Bordures arrondies*/
+img.logo{
+	padding: 0,1%;
+	border-radius: 50%;
+}
+
+p.accueil{
+	font-size: 187.25%;
+}
+
+p.ba{
+	font-size: 150%;
+}
+
+p.ba{
+	font-size: 150%;
+}
+
+a{
+	color: #ffffff;
+}
+
+div#home div{
+	display: inline-block;
+	width: 30%;
+	font-size: 125%;
+	margin: 31,25%;
+	color: #ffffff;
+	background-color: #bb0b0b;
+	padding: 1em 1em;
+	border-radius: 1em 1em;
+}
+
+div#home a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+div#home div:hover{
+	color: #ffffff;
+	background-color: #333333;
+	transition: 0.4s all;
+}
+
+div#horreur div{
+	display: inline-block;
+	width: 30%;
+	font-size: 125%;
+	margin: 31,25%;
+	color: #ffffff;
+	background-color: #bb0b0b;
+	padding: 1em 1em;
+	border-radius: 1em 1em;
+}
+
+div#horreur div:hover{
+	color: #ffffff;
+	background-color: #333333;
+	transition: 0.4s all;
+}
+
+div#connexion div{
+	display: inline-block;
+	width: 30%;
+	font-size: 125%;
+	margin: 31,25%;
+	color: #ffffff;
+	background-color: #bb0b0b;
+	padding: 1em 1em;
+	border-radius: 1em 1em;
+}
+
+div#connexion div:hover{
+	color: #ffffff;
+	background-color: #333333;
+	transition: 0.4s all;
+}
+
+div#ajouter div{
+	display: inline-block;
+	width: 30%;
+	font-size: 125%;
+	margin: 31,25%;
+	color: #ffffff;
+	background-color: #bb0b0b;
+	padding: 1em 1em;
+	border-radius: 1em 1em;
+}
+
+div#ajouter div:hover{
+	color: #ffffff;
+	background-color: #333333;
+	transition: 0.4s all;
+}
+
+input.connexion{
+	color: #bb0b0b;
+	background-color: #ffffff;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 2em 2em;
+	font-size: 15px;
+	font-family: Arial;
+}
+
+input.connexion:hover{
+	color: #ffffff;
+	background-color: #bb0b0b;
+	transition: 0.4s all;
+}
+
+input.ajouter_btn{
+	color: #bb0b0b;
+	background-color: #ffffff;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 2em 2em;
+	font-size: 15px;
+	font-family: Arial;
+}
+
+input.ajouter_btn:hover{
+	color: #ffffff;
+	background-color: #bb0b0b;
+	transition: 0.4s all;
+}
+
+iframe{
+	border-radius: 1em 1em;
+	width: 560px;
+	height: 315px;
+}
+
+/* Horreur */
+img.t3h img.st img.re{
+	border-radius: 1em 1em;
+}
+
+div.t3hr div.str div.rer {
+	padding: 5em 5em;
+}
+
+/* Comédie */
+div.mlm{
+	border-radius: 1em 1em;
+}
+
+div.mlmr {
+	padding: 5em 5em;
+}
+
+/* Manga */
+img.dbs img.op img.no{
+	border-radius: 1em 1em;
+}
+
+div.dbs div.op div.no {
+	padding: 5em 5em;
+}
+
+a.connected{
+	text-decoration: none;
+}
+
+footer{
+	background-color: #333333;
+	border-radius: 1em 1em;
+	padding: 1em 1em;
+	color: white;
+	font-size: 125%;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/chouflex.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Connexion - ChouFlex™</title>
+</head>
+<body>
+
+	<!-- Haut de page -->
+	<header> 
+		<a href="accueil.html"><img class="logo" src="img_vid/logo.png" width="150"></a><!-- Cliquer sur le logo pour aller à la page d'accueil -->
+		<div style="display:inline-block;">
+		</div>
+
+	<!-- Menus de navigation -->
+	<nav class="menu" align="center">
+		<ul>
+			<li class="btn">
+				<a href="accueil.html">
+				Accueil<!-- Page d'accueil -->
+				</a>
+			</li>
+			<li class="btn">
+				<a href="horreur.php">
+				Horreur<!-- Page horreur -->
+				</a>
+			</li>
+			<li class="btn">
+				<a href="comedie.php">
+				Comédie<!-- Page comédie -->
+				</a>
+			</li>
+			<li class="btn">
+				<a href="manga.php">
+				Manga<!-- Page manga -->
+				</a>
+			</li>
+			<li class="btn">
+				<a href="login.html">
+				Ajouter<!-- Page de connexion ou de création de compte, puis on peut ajouter des séries sur la page ajouter.html -->
+				</a>
+			</li>
+		</ul>
+	</nav>
+	</header>
+	<br>
+	<h1 class="connexion" align="center">
+		<u>Connectez-vous au compte ChouFlexID™</u>
+	</h1>
+	<br>
+
+	<form action="login.php" method="post">
+    <div id="connexion" align="center">
+        <div class="connexion">
+            Connexion au compte ChouFlexID™<br/><br/>
+            Identifiant : <input type="text", name="id", id="id", placeholder="Entrez votre identifiant", size="30", maxlength="100"><br/>
+            Mot de passe : <input type="password" name="passwd" size="30" placeholder="Entrez votre mot de passe"><br/><br/>
+ 			<Input class="connexion" type="submit" name="connect" value="Connexion">
+        </div>
+    </div>
+	</form>
+    <br/><br/>
+
+	<!-- Pied de page -->
+	<footer>
+		Copyright© 2023 | ChouFlex SAS | All rights reserved.<br/>
+		Cofondateurs du site internet ChouFlex™ : Mouaz | Sofiane | Naïm<br/>
+		1BTSS2I ~ Projet SLAM
+	</footer>
+
+</body>
+</html>
